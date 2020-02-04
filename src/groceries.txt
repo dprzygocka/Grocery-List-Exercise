@@ -1,0 +1,5 @@
+cheese 2
+spinach 3
+beer 6
+hat 1
+toiletPaper 1
