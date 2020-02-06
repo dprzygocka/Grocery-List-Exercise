@@ -14,6 +14,13 @@ public class GroceryList{
             System.out.println("Attempting to add " + itemOrder.getName()+ ", but the list is full");
         }
     }
+    public double getTotalCost(){
+        double totalCost = 0;
+        for (int i =0; i<list.length; i++){
+            totalCost += list[i].getPrice() * list[i].getQuantity();
+        }
+        return totalCost;
+    }
 
     public void displayList(){
         for(int i=0; i<list.length; i++){
@@ -22,5 +29,7 @@ public class GroceryList{
             }
         }
     }
+    //display total Cost
+    //public String toString(){ return }
 
 }

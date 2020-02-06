@@ -1,13 +1,23 @@
 public class GroceryItemOrder{
     private String name;
     private int quantity;
+    private double price;
 
-    public GroceryItemOrder(String name, int quantity, GroceryList list){
+    //public GroceryItemOrder (String name) only setting the name(the default quantity should be one)
+    public GroceryItemOrder(String name, int quantity, double price, GroceryList list){
         this.name = name;
         this.quantity = quantity;
+        this.price = price;
 
         list.addItem(this);
     }
+
+    public GroceryItemOrder(String name, int quantity, double price){
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
     public String getName() {
         return name;
     }
@@ -24,7 +34,13 @@ public class GroceryItemOrder{
         this.quantity = quantity;
     }
 
+    public void setPrice(double price) { this.price = price; }
+
+    public double getPrice() { return price; }
+
+    public double getCost(){ return this.price* this.quantity; }
+
     public String toString(){
-        return this.name + " : " + quantity;
+        return this.name + ": " + quantity + "Cost: " + getCost();
     }
 }

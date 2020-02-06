@@ -1,5 +1,5 @@
-cheese 2
-spinach 3
-beer 6
-hat 1
-toiletPaper 1
+cheese 2 23.99 
+spinach 3 15.20
+beer 6 20
+hat 1 45
+toiletPaper 1 10.60

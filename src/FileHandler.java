@@ -15,8 +15,8 @@ public class FileHandler{
         while(scan.hasNext()){
             String line = scan.nextLine();
             Scanner lineScan = new Scanner(line);
-
-            //list.addItem(lineScan.next(), lineScan.nextInt());
+            list.addItem(new GroceryItemOrder( lineScan.next(), lineScan.nextInt(), lineScan.nextDouble()));
+            //should I write while lineScan.hasNext ect?)
         }
     }
 }
