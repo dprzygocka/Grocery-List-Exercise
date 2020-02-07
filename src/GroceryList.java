@@ -29,7 +29,6 @@ public class GroceryList{
             }
         }
     }
-    //display total Cost
     //public String toString(){ return }
 
 }

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5808b23f-8533-477f-8c6f-e0f9099e0444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroceryItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroceryItemOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroceryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroceryList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroceryList2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroceryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroceryMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/groceries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/groceries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/groceries.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,9 @@
       <workItem from="1580823455796" duration="1215000" />
       <workItem from="1580845994180" duration="1584000" />
       <workItem from="1580991937463" duration="3016000" />
-      <workItem from="1580995153621" duration="900000" />
+      <workItem from="1580995153621" duration="2873000" />
+      <workItem from="1580999187804" duration="63000" />
+      <workItem from="1581061352803" duration="1215000" />
     </task>
     <servers />
   </component>
@@ -114,34 +115,52 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1580992256930" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1580847299202">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1580847299202">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1580847299201">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580847299201" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1580847299202">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1580995447006">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1580998989671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580995447006" />
-    <state x="426" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1580995158223">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580998989671" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1580998989671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580998989671" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1580998989671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580847299201" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580998989671" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1580998989671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580847299202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580998989671" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1580996653034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580996653034" />
+    <state x="426" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1581061373232">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580823473669" />
-    <state x="426" y="217" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580995158223" />
+    <state x="426" y="217" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581061373232" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1580847025377">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580847025377" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/GroceryMain.java</url>
+          <line>2</line>
+          <properties class="GroceryMain" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,7 +3,11 @@ public class GroceryItemOrder{
     private int quantity;
     private double price;
 
-    //public GroceryItemOrder (String name) only setting the name(the default quantity should be one)
+    public GroceryItemOrder (String name){
+        this.name = name;
+        this.quantity= 0;
+        this.price = 0;
+    }
     public GroceryItemOrder(String name, int quantity, double price, GroceryList list){
         this.name = name;
         this.quantity = quantity;
