@@ -12,6 +12,7 @@ public class GroceryList2{
     }
     public double getTotalCost(){
         double totalCost = 0;
+        if (list != null)
         for (int i =0; i<list.size(); i++){
             totalCost += list.get(i).getPrice() * list.get(i).getQuantity();
         }
@@ -19,13 +20,13 @@ public class GroceryList2{
     }
 
     public void displayList(){
+        if (list != null)
         for(int i=0; i<list.size(); i++){
             if(list.get(i) != null) {
-                System.out.println(list.get(i));
+                System.out.println(list.get(i).toString());
             }
         }
     }
 
-    //public String toString(){ return }
 
 }

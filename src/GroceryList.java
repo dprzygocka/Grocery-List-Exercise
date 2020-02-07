@@ -17,7 +17,11 @@ public class GroceryList{
     public double getTotalCost(){
         double totalCost = 0;
         for (int i =0; i<list.length; i++){
-            totalCost += list[i].getPrice() * list[i].getQuantity();
+            if(list[i] != null) {
+                totalCost += list[i].getPrice() * list[i].getQuantity();
+            }else{
+                break;
+            }
         }
         return totalCost;
     }
@@ -25,10 +29,10 @@ public class GroceryList{
     public void displayList(){
         for(int i=0; i<list.length; i++){
             if(list[i] != null) {
-                System.out.println(list[i]);
+                System.out.println(list[i].toString());
             }
         }
     }
-    //public String toString(){ return }
+
 
 }

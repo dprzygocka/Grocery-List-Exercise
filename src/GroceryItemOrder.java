@@ -45,6 +45,6 @@ public class GroceryItemOrder{
     public double getCost(){ return this.price* this.quantity; }
 
     public String toString(){
-        return this.name + ": " + quantity + "Cost: " + getCost();
+        return this.name + ": " + quantity + " Cost: " + getCost();
     }
 }
