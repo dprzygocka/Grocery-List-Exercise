@@ -21,6 +21,10 @@ public class GroceryMain{
         new GroceryItemOrder("spinach", 1, 15.20, list);*/
 
         System.out.println("This is the grocery list:");
+
+        list.displayList();
+        System.out.println("Total cost: " + list.getTotalCost());
         list2.displayList();
+        System.out.println("Total cost: " + list2.getTotalCost());
     }
 }
